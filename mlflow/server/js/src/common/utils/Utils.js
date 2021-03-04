@@ -641,7 +641,7 @@ class Utils {
         type: 'UPDATE_TITLE',
         title,
       },
-      window.parent.location.origin,
+      "*",
     );
   }
 
